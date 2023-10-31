@@ -10,7 +10,7 @@ First, you'll need CharaCardConv_KKStoKK.exe, of course. You can download it [he
 Then put everything together, and run the script.
 
 The script is quite straightforward, as shown below:
-```
+```batch
 @echo off
 for %%f in (*.png) do (
     start /B CharaCardConv_KKStoKK.exe "%%f" > nul
